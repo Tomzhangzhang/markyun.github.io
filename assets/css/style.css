@@ -168,13 +168,13 @@ nav.main-nav a:hover{
 #wrapper {
   max-width: 960px;
   margin: 0 auto;
-  padding: 30px 40px 20px 40px;
+  padding: 30px 40px 20px 50px;
 }
 
 #wrapper.home {
 	max-width: 680px;
 	margin: 0 auto;
-	padding: 0px 40px 20px 40px;
+	padding: 0px 40px 20px 50px;
 }
 
 .home #avatar {
@@ -414,16 +414,16 @@ Post List
 }
 
 #post-list a {
-	color: #333;
+  	color: #2b2b2b;
 	display: block;
-	font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: bold 18px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
 }
 
 #post-list .dates {
 	float: right;
 	position: relative;
 	top: 1px;
-	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: 300 16px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
 	color: #bbb;
 }
 
