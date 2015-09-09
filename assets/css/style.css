@@ -117,7 +117,7 @@ h2 {
 }
 
 .profile h2 {
-	font-size: 20px;
+	font-size: 16px;
 	  font-weight: 300;
 	  color: #aaa;
 	  margin-top: 10px;
@@ -128,7 +128,6 @@ h2 {
 
 nav.main-nav {
 	padding: 20px 20px 0;
-
 	/*max-width: 600px;*/
 	/*width:100%;*/
 	background: #fff;
@@ -145,7 +144,6 @@ nav.main-nav a {
 	padding: 8px 12px;
 	color: #5badf0;
 	font-size: 13px;
-	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
 
@@ -224,7 +222,6 @@ em, i { font-style: italic; }
 	font: italic 14px/1.4em Georgia,serif;
 	color: #aaa;
 }
-
 
 
 .home h1 {
