@@ -27,7 +27,7 @@ archive: true
 </footer>
 
 <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key={{ page.date | date:"%B %-d, %Y" }}  data-title={{ page.title }}  data-url="#"></div>
+    <div class="ds-thread" data-thread-key={{ page.date }}  data-title={{ page.title }}  data-url={{ page.url }}></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
@@ -45,12 +45,12 @@ var duoshuoQuery = {short_name:"markyungithub"};
 
 
 <!-- Disqus comments-->
-{% if site.disqus %}
+<!-- {% if site.disqus %}
     <div class="archive readmore">
         <h3>Comments</h3>
         {% include disqus.html %}
     </div>
-{% endif %} 
+{% endif %}  -->
 
 <!-- Archive post list -->
 {% if page.archive %}
@@ -64,5 +64,6 @@ var duoshuoQuery = {short_name:"markyungithub"};
     </ul>
 {% endif %}
 
+{% include footer.html %}
 
 
