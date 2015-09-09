@@ -648,15 +648,13 @@ h2.month {
   margin-left: 2px;
 }
 
-@media screen and (max-width: 765px) {
-
-}
-
-nav.main-nav {
-	background: rgba(255,255,255,.80);
-	position: relative;
-}
 /* Media Queries */
+@media screen and (max-width: 765px) {
+	nav.main-nav {
+		background: rgba(255,255,255,.80);
+		position: relative;
+	}
+}
 @media screen and (max-width: 540px) {
 	#wrapper { padding:20px 20px 20px 20px;}
 	#header { margin-bottom: 60px; border-bottom: 1px solid #eee; }
