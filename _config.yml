@@ -1,5 +1,4 @@
 name: Markyun
-description: Blogging about stuffs
 meta_description: "爱机车、爱骑行、爱旅行、爱摄影、爱阅读，前端开发攻城师。"
 
 aboutPage: true
@@ -9,13 +8,13 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://markyun.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
+url:            'http://markyun.github.io'
 author:         'markyun'
 authorTwitter:  'majinyun0802'
 
