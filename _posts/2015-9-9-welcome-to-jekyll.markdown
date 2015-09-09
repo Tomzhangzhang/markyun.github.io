@@ -1,26 +1,30 @@
 ---
-title:  "Welcome Markyun My-blog !"
+id:01
+title:  "Welcome!"
 date:   2015-9-9 10:18:00
-description: Thriller Comedy Horror
+description: '本博客使用 Github+Jekyll生成并托管整个网站，无需数据库、不需要更新版本——只用关心博客内容'
 layout: post
 comments: true
 
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
-Jekyll also offers powerful support for code snippets:
+博客使用 Github+Jekyll 实现并托管整个网站，
 
-{% highlight ruby %}
-def print_hi( username )
-  puts "Hi, #{ username }"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+有待是无需关注数据库、版本更新等问题——只用关心博客内容；
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+修改了JQuery由默认的Google修改为百度的Jquery CDN；
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+增加了多说的评论功能。
+
+
+参考文献：
+
+jekyll官方版  [  http://jekyllrb.com]( http://jekyllrb.com "jekyllrb.com")
+
+jekyll中文版   [http://jekyll.bootcss.com/]( http://jekyll.bootcss.com/ "jekyll.bootcss.com/")
+
+
+![南京](http://s15.sinaimg.cn/large/002RrNJFgy6Vf6BcN0G5e&690)
+
+

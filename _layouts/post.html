@@ -27,9 +27,9 @@ archive: true
 </footer>
 
 <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key={{ page.url}}  data-title={{ page.url }}  data-url=http://markyun.github.io{{ page.url }}></div>
+    <div class="ds-thread" data-thread-key={{ page.id }}  data-title={{ page.url }}  data-url={{ site.url }}{{ page.url }}></div>
 <!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<!-- 多说 start -->
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"markyungithub"};
     (function() {
@@ -41,7 +41,7 @@ var duoshuoQuery = {short_name:"markyungithub"};
          || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
     </script>
-<!-- 多说公共JS代码 end -->
+<!-- 多说 end -->
 
 
 <!-- Disqus comments-->

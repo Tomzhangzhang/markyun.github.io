@@ -6,7 +6,7 @@ aboutPage: true
 
 markdown: redcarpet
 highlighter: pygments
-
+# pygments: true
 paginate: 20
 baseurl: /
 domain_name: 'http://markyun.github.io'

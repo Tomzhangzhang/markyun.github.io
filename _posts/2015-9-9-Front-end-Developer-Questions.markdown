@@ -1,4 +1,5 @@
 ---
+id:02
 title:  "Front End Developer Questions"
 date:   2015-9-9 12:18:00
 description: '本文收集总结了一些优质的前端面试题，初学者阅后也要用心钻研其中的原理，重要知识需要系统学习，透彻学习，形成自己的知识链'
