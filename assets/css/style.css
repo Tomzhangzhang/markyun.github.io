@@ -157,7 +157,7 @@ nav.main-nav a.cta {
 #wrapper {
   max-width: 600px;
   margin: 0 auto;
-  padding: 60px 40px 100px 40px;
+  padding: 60px 40px 20px 40px;
 }
 
 #wrapper.home {
@@ -642,7 +642,7 @@ h2.month {
 	#wrapper { padding:20px 20px 20px 20px;}
 	#header { margin-bottom: 60px; border-bottom: 1px solid #eee; }
 	.post { margin: 40px 0; }
-	#footer { margin-top: 60px; }
+	#footer { margin-top: 30px; }
 
 	#post-list, #archive-list { margin-top: 0; }
 	#post-meta { margin-top: 60px; }
@@ -656,4 +656,17 @@ h2.month {
 	.post h2.headline { font-size: 13px; }
 	.post h1 { font-size:24px; }
 	.post h2 { font-size:20px; }
+}
+@media screen and (max-width: 320px){
+	.post h1{
+  		font-size: 18px;
+	}
+	nav.main-nav a.cta{
+		display: none;
+	}#post-meta{
+		padding-top: 20px;
+		padding-top: 20px;
+  		margin-bottom: 20px;
+  		padding-bottom: 20px;
+	}
 }
