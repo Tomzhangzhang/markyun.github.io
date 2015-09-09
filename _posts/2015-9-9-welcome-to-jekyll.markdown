@@ -2,6 +2,9 @@
 title:  "Welcome Markyun My-blog !"
 date:   2015-9-9 10:18:00
 description: Thriller Comedy Horror
+layout: post
+comments: true
+
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
@@ -10,8 +13,8 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
+def print_hi(Markyun)
+  puts "Hi, #{Markyun}"
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
