@@ -88,8 +88,8 @@ h2 {
 	background-color: rgba(50,50,50,0.05);
 }
 .profile #wrapper {
-	padding: 100px 40px 0px;
-	max-width: 600px;
+	padding: 60px 40px 0px;
+	max-width: 680px;
 	margin: 0 auto;
 }
 
@@ -129,12 +129,12 @@ h2 {
 nav.main-nav {
 	padding: 20px 20px 0;
 	/*max-width: 600px;*/
-	/*width:100%;*/
+	 width:100%; 
 	background: #fff;
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
 	text-align: right;
-	/*position: fixed;*/
+	position: fixed;
 	z-index: 100;
 }
 
@@ -166,13 +166,13 @@ nav.main-nav a:hover{
 	color: #48CEFF;
 }
 #wrapper {
-  max-width: 600px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 30px 40px 20px 40px;
 }
 
 #wrapper.home {
-	max-width: 600px;
+	max-width: 680px;
 	margin: 0 auto;
 	padding: 0px 40px 20px 40px;
 }
@@ -280,7 +280,7 @@ em, i { font-style: italic; }
 #post-list h2 {
 	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #aaa;
-	max-width: 400px;
+	max-width: 525px;
 	margin-top: 2px;
 }
 
@@ -648,6 +648,14 @@ h2.month {
   margin-left: 2px;
 }
 
+@media screen and (max-width: 765px) {
+
+}
+
+nav.main-nav {
+	background: rgba(255,255,255,.80);
+	position: relative;
+}
 /* Media Queries */
 @media screen and (max-width: 540px) {
 	#wrapper { padding:20px 20px 20px 20px;}
