@@ -19,7 +19,7 @@ url:            'http://markyun.github.io'
 author:         'markyun'
 authorTwitter:  'majinyun0802'
 
-permalink:       /:year/:title/
+permalink:       /:year/:title/.html
 
 defaults:
     -
