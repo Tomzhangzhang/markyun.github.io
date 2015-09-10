@@ -189,7 +189,7 @@ nav.main-nav a:hover{
 	border-radius: 50%;
 }
 #post-body  p img{
-  max-width: 500px;
+  max-width: 90%;
 }
 /* Typography */
 /*Accent color*/
@@ -663,7 +663,22 @@ h2.month {
     right: -10px;
     background: rgba(255,255,255,.75);
 }
-
+#wrapper #ds-thread #ds-reset li.ds-tab a,#wrapper #ds-reset .ds-avatar img{
+	border-radius:0;
+}
+#wrapper #ds-thread #ds-reset .ds-textarea-wrapper{
+	background: none;
+	border-radius:0;
+}
+#wrapper #ds-thread #ds-reset .ds-textarea-wrapper textarea{
+	height: 30px;
+}
+#wrapper #ds-thread #ds-reset .ds-powered-by,#wrapper #ds-thread #ds-reset li.ds-post-placeholder{
+	display: none;
+}
+#post-list.readmore{
+	margin-top:40px;
+}
 /* Media Queries */
 @media screen and (max-width: 765px) {
 	nav.main-nav {
