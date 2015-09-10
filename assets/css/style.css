@@ -218,7 +218,7 @@ ul 	{ margin:0; padding:0; }
 li	{ list-style-type:circle; list-style-position:inside; }
 
 /* Line Height */
-#post-body, p { line-height:1.7; }
+#post-body, p { line-height:1.6; }
 
 b, strong { font-weight: 500;
   color: #1E2025; }
@@ -260,20 +260,20 @@ em, i { font-style: italic; }
 .post h1 {
 	margin-bottom: 20px;
 	color: #222;
-	font: 300 30px/1.5em "Helvetica Neue", Helvetica,Arial,sans-serif;
+	font: 300 30px/1.5em "Microsoft Yahei","Helvetica Neue", Helvetica,Arial,sans-serif;
 }
 
 .post h2 {
 	margin-bottom: 40px;
-	  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+	  font: 300 24px/1.5 "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
 	  color: #111;
 }
 
 
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
-	font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-	margin: -5px 0 40px 0;
+	font: normal 13px/1.5em "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: -5px 0 30px 0;
 	color: #b2b9be;
 	  font-size: 13px;
 	  text-transform: uppercase;
@@ -283,7 +283,7 @@ em, i { font-style: italic; }
 }
 
 #post-list h2 {
-	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: normal 17px/1.5em "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #aaa;
 	max-width: 525px;
 	margin-top: 2px;
@@ -421,14 +421,14 @@ Post List
 #post-list a {
   	color: #2b2b2b;
 	display: block;
-	font: bold 16px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: bold 18px/1.8 "Microsoft Yahei","Helvetica Neue",helvetica,Arial,sans-serif;
 }
 
 #post-list .dates {
 	float: right;
 	position: relative;
 	top: 1px;
-	font: 300 16px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: 300 16px/1.6 "Microsoft Yahei","Helvetica Neue",helvetica,Arial,sans-serif;
 	color: #bbb;
 }
 
