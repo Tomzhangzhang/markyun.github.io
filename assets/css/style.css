@@ -327,19 +327,22 @@ hr {
 span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }
 
 pre	{
-    overflow: auto;
-    font-family: 'Source Code Pro',Menlo,monospace;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 1.5em;
-    padding: 20px;
-    white-space: pre-wrap;
-    color: #d0d4d7;
-    border-radius: 3px;
-    background: #272b2d;
-    background-color: #fdfdfd;
-}
+	font-family:Menlo, Monaco, Courier;
+	white-space:pre-wrap;
+	/*border: 1px solid #ddd;*/
+	padding:20px;
+	background-color:#443C3C;
+	/*font-size:14px;*/
+	overflow:auto;
+	border-radius: 3px;
+	background: #272b2d;
+	/*   font-family: 'Source Code Pro',Menlo,monospace; */
+	font-size: 13px;
+	line-height: 1.5em;
+	font-weight: 500;
+	color: #d0d4d7;
 
+}
 
 table {
 	width: 100%;
@@ -686,7 +689,7 @@ h2.month {
 	#post-list .dates { display: none; }
 
 	#post-list-footer { margin-top: 20px; padding-top: 40px; }
-	.topHead{display: none;}
+	.topHead{display: none!important};
 	h1 { font-size: 26px; }
 	.post h2.headline { font-size: 13px; }
 	.post h1 { font-size:24px; }
