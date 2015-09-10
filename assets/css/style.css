@@ -188,7 +188,9 @@ nav.main-nav a:hover{
 	height: 40px;
 	border-radius: 50%;
 }
-
+#post-body  p img{
+  max-width: 500px;
+}
 /* Typography */
 /*Accent color*/
 a,
@@ -283,7 +285,7 @@ em, i { font-style: italic; }
 }
 
 #post-list h2 {
-	font: normal 17px/1.5em "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: normal 14px/1.5em "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #aaa;
 	max-width: 525px;
 	margin-top: 2px;
