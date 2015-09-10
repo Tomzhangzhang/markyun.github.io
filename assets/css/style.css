@@ -248,7 +248,7 @@ em, i { font-style: italic; }
 }
 
 .home h2 {
-	font: italic 19px/1.3em Georgia,serif;
+	font: italic 14px/1.5em Georgia,serif;
 	color: #bbb;
 }
 
@@ -260,7 +260,7 @@ em, i { font-style: italic; }
 .post h1 {
 	margin-bottom: 20px;
 	color: #222;
-	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
+	font: 300 30px/1.5em "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
 
 .post h2 {
@@ -421,7 +421,7 @@ Post List
 #post-list a {
   	color: #2b2b2b;
 	display: block;
-	font: bold 18px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: bold 16px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
 }
 
 #post-list .dates {
