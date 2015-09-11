@@ -9,7 +9,6 @@ comments: false
 ---
 
 
-
 -构建github库：username.github.io
 
 -安装jekyll相关资源
@@ -207,10 +206,6 @@ h2.month {
 }
 {% endhighlight %}
 
-
 参考：
 
 jekyll中文版   [http://jekyll.bootcss.com/]( http://jekyll.bootcss.com/ "jekyll.bootcss.com/")
-
-
-
