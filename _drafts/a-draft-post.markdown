@@ -1,14 +1,23 @@
 ---
-title:  "A Draft Post"
+title:  "Welcome!"
 description: Work in progress
 ## date: add a date when publishing
 ---
+博客使用 Github+Jekyll 实现并托管整个网站，
 
-Drafts are posts without a date. They’re posts you’re still working on and don’t want to publish yet. To get up and running with drafts, check the _drafts folder in the site’s root.
+优点是无需关注数据库、版本更新等问题，只需关心博客内容；
 
-To preview your site with drafts, simply run **`jekyll serve`** or **`jekyll build`** with the **`--drafts`** switch. Each will be assigned the value modification time of the draft file for its date, and thus you will see currently edited drafts as the latest posts.
+修改了JQuery由默认的Google引用修改为百度的Jquery CDN；
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+增加了多说的评论功能。
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+2015-9-11 :更新了页面的DOM结构格式；
+
+
+参考文献：
+
+jekyll官方版  [  http://jekyllrb.com]( http://jekyllrb.com "jekyllrb.com")
+
+jekyll中文版   [http://jekyll.bootcss.com/]( http://jekyll.bootcss.com/ "jekyll.bootcss.com/")
+
+![南京](http://i3.tietuku.com/8d1ffe7d2f1d6bfc.jpg)

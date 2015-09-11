@@ -20,12 +20,10 @@ archive: true
             <span>{{ site.description }}</span>
         </div>
     </a>
-
     <section id="sharing">
         {% include share.html %}
     </section>
 </footer>
-
 <!-- 多说评论框 start -->
     <div class="ds-thread" data-thread-key={{ page.id }}  data-title={{ page.url }}  data-url={{ site.url }}{{ page.url }}></div>
 <!-- 多说评论框 end -->
@@ -42,16 +40,6 @@ var duoshuoQuery = {short_name:"markyungithub"};
     })();
     </script>
 <!-- 多说 end -->
-
-
-<!-- Disqus comments-->
-<!-- {% if site.disqus %}
-    <div class="archive readmore">
-        <h3>Comments</h3>
-        {% include disqus.html %}
-    </div>
-{% endif %}  -->
-
 <!-- Archive post list -->
 {% if page.archive %}
     <ul id="post-list" class="archive readmore">
@@ -63,5 +51,4 @@ var duoshuoQuery = {short_name:"markyungithub"};
         {% endfor %}
     </ul>
 {% endif %}
-
 {% include footer.html %}

@@ -188,11 +188,6 @@ nav.main-nav a:hover{
 	height: 40px;
 	border-radius: 50%;
 }
-#post-body  p img{
-  max-width: 90%;
-  padding: 10px 0;
-  display: block;
-}
 /* Typography */
 /*Accent color*/
 a,
@@ -695,6 +690,11 @@ h2.month {
 	.profile #header{
 	  margin-bottom: 20px;
 	  padding-bottom: 20px;
+	}
+	#post-body  p img{
+	  max-width: 90%;
+	  padding: 10px 0;
+	  display: block;
 	}
 	.post { margin: 40px 0; }
 	#footer { margin-top: 30px; }

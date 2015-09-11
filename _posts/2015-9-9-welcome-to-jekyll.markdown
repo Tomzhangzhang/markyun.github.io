@@ -8,7 +8,6 @@ comments: true
 
 ---
 
-
 博客使用 Github+Jekyll 实现并托管整个网站，
 
 优点是无需关注数据库、版本更新等问题，只需关心博客内容；
@@ -24,7 +23,4 @@ jekyll官方版  [  http://jekyllrb.com]( http://jekyllrb.com "jekyllrb.com")
 
 jekyll中文版   [http://jekyll.bootcss.com/]( http://jekyll.bootcss.com/ "jekyll.bootcss.com/")
 
-
 ![南京](http://i3.tietuku.com/8d1ffe7d2f1d6bfc.jpg)
-
-
