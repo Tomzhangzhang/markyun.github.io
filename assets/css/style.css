@@ -791,19 +791,20 @@ h2.month {
 	}
 }
 @media screen and (max-width: 540px) {
-	#wrapper.home,#wrapper { padding:20px 20px 20px 20px;}
-	.profile #wrapper{ padding:40px 20px 0px}
+	#wrapper.home,#wrapper { padding: 20px;}
+	.profile #wrapper{ padding: 40px 20px 0;}
 	#header { margin-bottom: 60px; border-bottom: 1px solid #eee; }
 	.profile #header{
 	  margin-bottom: 20px;
 	  padding-bottom: 20px;
 	}
 	#post-body  p img{
+	  display: block;
 	  max-width: 90%;
 	  padding: 10px 0;
-	  display: block;
 	}
 	.post { margin: 40px 0; }
+
 	#footer { margin-top: 30px; }
 
 	#post-list, #archive-list { margin-top: 0; }
