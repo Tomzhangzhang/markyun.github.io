@@ -12,5 +12,5 @@ profile: true
 
 [前端开发面试题 Front-end-Developer-Questions    ](https://github.com/markyun/My-blog/blob/master/Front-end-Developer-Questions "最新前端开发面试题") (不定期更新)
 
-![Stated Clearly Image](http://i3.tietuku.com/8d1ffe7d2f1d6bfc.jpg)
+![Stated Clearly Image](/assets/images/Nanjing.jpg)
 {% include footer.html %}
