@@ -1,4 +1,4 @@
-var gulp = require('gulp');
+var gulp   = require('gulp');
 var jshint = require('gulp-jshint');
 var sass   = require('gulp-ruby-sass');
 var concat = require('gulp-concat');
@@ -20,7 +20,7 @@ gulp.task('sass', function() {
         .on('error', function (err){
          console.error('sass task Error!', err.message);
    })
-           .pipe(gulp.dest('./css'))
+     .pipe(gulp.dest('./css'))
      .pipe(notify({ message: 'sass task complete' }));
 });
 
