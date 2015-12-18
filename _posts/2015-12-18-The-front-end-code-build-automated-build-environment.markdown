@@ -1,7 +1,7 @@
 ---
 id:		04
 title:  "UED团队前端自动化构建环境的搭建"
-date:   2015-12-18 
+date:   2015-12-10
 description: "为了UED前端团队更好的协作开发同时提高项目编码质量，我们需要将Web前端使用工程化方式构建。"
 layout: post
 comments: true

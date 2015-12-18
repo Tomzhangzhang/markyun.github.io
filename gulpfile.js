@@ -47,6 +47,6 @@ gulp.task('default', function(){
     gulp.run("lint",'images');
 
    /*gulp.watch('./js/*.js', function(){
-        gulp.run('lint', 'sass', 'scripts');
+        gulp.run('lint');
     });*/
 });
