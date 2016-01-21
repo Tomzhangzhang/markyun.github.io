@@ -219,7 +219,19 @@ li	{ list-style-type:circle; list-style-position:inside; }
 
 /* Line Height */
 #post-body, p { line-height:1.6; }
-
+#post-body img{
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+  -webkit-transition: all .15s ease;
+   -moz-transition: all .15s ease;
+    -ms-transition: all .15s ease;
+     -o-transition: all .15s ease;
+        transition: all .15s ease;
+}
+#post-body:hover img{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
 b, strong { font-weight: 500;
   color: #1E2025; }
 em, i { font-style: italic; }
