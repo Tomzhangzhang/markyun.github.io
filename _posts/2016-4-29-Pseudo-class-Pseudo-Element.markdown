@@ -8,15 +8,14 @@ comments: true
 
 ---
 
-# Pseudo-class（伪类）、Pseudo-Element（伪元素） #
 
 
 伪类、伪元素配合CSS3可以完成非常多有意思的效果，为方便个人开发时候的快速查阅，记录了以下常用到的一些伪类伪元素的简要中文说明；
 
 简单区分：
 
-	:Pseudo-classes		：DOM在不同状态、不同位置下的特殊效果；
-	::Pseudo-elements	：DOM按匹配规则伪造出的元素；
+	:Pseudo-classes		伪类:DOM在不同状态、不同位置下的特殊效果；
+	::Pseudo-elements	伪元素：DOM按匹配规则伪造出的元素；
 
 #### 注意点： ####
 - 伪类添加的内容元素或伪类效果通在DOM的源代码中是看不见的，需要借助开发者工具才能看见;
