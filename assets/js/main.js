@@ -34,7 +34,7 @@ function retina() {
 $(document).ready(
 	retina();
 
-	//#scrollTop
+	/*#scrollTop*/
 	$(".topHead").hide();
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 550) {
