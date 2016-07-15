@@ -807,15 +807,14 @@ h2.month {
   background-image: url(http://i4.piimg.com/1949/ae804dd84f87ba56.jpg);
   background-size: auto 100%;
   cursor: pointer;
-  animation: panorama 5s linear infinite alternate;
+  animation: panorama s linear infinite alternate;
   animation-play-state: paused;
   margin: 0 auto;
 }
-
-.panorama:hover,
-.panorama:focus {
-  animation-play-state: running;
-    box-shadow: inset 2px 3px 6px rgba(0, 0, 0, 0.3); 
+.panorama{
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    box-shadow:10px 12px 10px rgba(0,0,0,.3)
 }
 
 @keyframes panorama {
