@@ -14,4 +14,4 @@ profile: true
 
 ![Stated Clearly Image](/assets/images/Nanjing.jpg "Nanjing")
 
-{% include footer.html %} -->
+{% include footer.html %}

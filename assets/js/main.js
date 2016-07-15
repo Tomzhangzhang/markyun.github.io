@@ -53,7 +53,7 @@ $(document).ready(
 	var url = window.location.pathname;
 		url = url.replace(/\//g,"");
 	if (url == "about") {
-		$("#wrapper").addClass("about");
+		$("section#wrapper").addClass("about");
 	};
 	$(".about").find("img").parents().addClass("panorama");
 );

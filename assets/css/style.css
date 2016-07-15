@@ -796,14 +796,15 @@ h2.month {
   opacity: 0.7;
 }
 
-.about p img{
+.panorama img{
 	display: none;
 }
 /* panorama */
 .panorama {
+  position: relative;
   width: 600px;
   height:400px;
-  background-image: url(http://7xrn7f.com1.z0.glb.clouddn.com/16-7-15/76418666.jpg);
+  background-image: url(http://i4.piimg.com/1949/ae804dd84f87ba56.jpg);
   background-size: auto 100%;
   cursor: pointer;
   animation: panorama 10s linear infinite alternate;
