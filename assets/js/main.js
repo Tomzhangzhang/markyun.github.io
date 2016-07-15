@@ -48,8 +48,7 @@ $(document).ready(
 			scrollTop: 0
 		}, 800);
 		return false
-	})
-
+	});
 	var url = window.location.pathname;
 		url = url.replace(/\//g,"");
 	if (url == "about"){
