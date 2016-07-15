@@ -19,7 +19,7 @@ $(function(){
 	if (url_temp == "about"){
 		$("section#wrapper").addClass("about");
 	};
-	$(".about").find("img").parents().addClass("panorama");
+	$(".about").find("img").parents().eq(0).addClass("panorama");
 
 })
 // To make images retina, add a class "2x" to the img element
