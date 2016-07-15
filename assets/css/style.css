@@ -807,7 +807,7 @@ h2.month {
   background-image: url(http://i4.piimg.com/1949/ae804dd84f87ba56.jpg);
   background-size: auto 100%;
   cursor: pointer;
-  animation: panorama s linear infinite alternate;
+  animation: panorama 6s linear infinite alternate;
   animation-play-state: paused;
   margin: 0 auto;
 }
