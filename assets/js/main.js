@@ -15,7 +15,6 @@ function isRetina() {
 	return false;
 };
 
-
 function retina() {
 	if (!isRetina()) {
 		return;
@@ -33,7 +32,6 @@ function retina() {
 
 $(document).ready(
 	retina();
-
 	/*#scrollTop*/
 	$(".topHead").hide();
 	$(window).scroll(function() {
@@ -49,9 +47,9 @@ $(document).ready(
 		}, 800);
 		return false
 	});
-	var url = window.location.pathname;
-		url = url.replace(/\//g,"");
-	if (url == "about"){
+	var url_temp = window.location.pathname;
+		url_temp = url_temp.replace(/\//g,"");
+	if (url_temp == "about"){
 		$("section#wrapper").addClass("about");
 	};
 	$(".about").find("img").parents().addClass("panorama");
