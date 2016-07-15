@@ -49,4 +49,11 @@ $(document).ready(
 		}, 800);
 		return false
 	})
+
+	var url = window.location.pathname;
+		url = url.replace(/\//g,"");
+	if (url == "about") {
+		$("#wrapper").addClass("about");
+	};
+	$(".about").find("img").parents().addClass("panorama");
 );
