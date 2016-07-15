@@ -1,3 +1,27 @@
+$(function(){
+	retina();
+	$(".topHead").hide();
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 550) {
+			$(".topHead").fadeIn()
+		} else {
+			$(".topHead").fadeOut()
+		}
+	});
+	$("a.topHead").click(function() {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 800);
+		return false
+	});
+	var url_temp = window.location.pathname;
+		url_temp = url_temp.replace(/\//g,"");
+	if (url_temp == "about"){
+		$("section#wrapper").addClass("about");
+	};
+	$(".about").find("img").parents().addClass("panorama");
+
+})
 // To make images retina, add a class "2x" to the img element
 // and add a <image-name>@2x.png image. Assumes jquery is loaded.
 function isRetina() {
@@ -5,7 +29,6 @@ function isRetina() {
 					  (min--moz-device-pixel-ratio: 1.5),\
 					  (-o-min-device-pixel-ratio: 3/2),\
 					  (min-resolution: 1.5dppx)";
-
 	if (window.devicePixelRatio > 1) {
 		return true;
 	}
@@ -29,28 +52,3 @@ function retina() {
 		$(image).attr("src", path);
 	});
 };
-
-$(document).ready(
-	retina();
-	/*#scrollTop*/
-	$(".topHead").hide();
-	$(window).scroll(function() {
-		if ($(this).scrollTop() > 550) {
-			$(".topHead").fadeIn()
-		} else {
-			$(".topHead").fadeOut()
-		}
-	});
-	$("a.topHead").click(function() {
-		$('body,html').animate({
-			scrollTop: 0
-		}, 800);
-		return false
-	});
-	var url_temp = window.location.pathname;
-		url_temp = url_temp.replace(/\//g,"");
-	if (url_temp == "about"){
-		$("section#wrapper").addClass("about");
-	};
-	$(".about").find("img").parents().addClass("panorama");
-);
